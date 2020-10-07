@@ -1,0 +1,135 @@
+        * { margin: 0}
+
+        .A{ font-family:garamond;
+            font-size:60px;
+            text-align:center;
+            background-image:url(doty121.jpg);
+            height:71px;
+            color:#424874;
+            vertical-align:middle;
+            display: block;
+            padding:25px }
+
+        .B{ 
+            
+            background-image:url(doty80.jpg);
+            font-family:helvetica;
+            color:#424874;
+            font-size:32px;
+            height:40px;
+            position: sticky;
+            padding:20px;
+            top: 0px;
+            display: flex;
+            justify-content: space-around;
+             }
+        
+ 
+        @media screen and (max-width: 800px) {
+  .A {
+    font-size:60px;
+    height:81px;
+    padding:20px    
+  }
+}      
+        @media screen and (max-width: 650px) {
+  .A {
+    font-size:50px;
+    height:71px;
+    padding:25px    
+  }
+}
+         @media screen and (max-width: 590px) {
+  .A {
+    font-size:60px;
+    height:121px;
+    padding:0    
+  }
+}      
+
+.b { border: 1px solid #DCD6F7}
+
+
+span {  display: inline-block}
+
+.day {
+           
+    animation-name: moveInDay;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+} 
+
+@keyframes moveInDay {
+    0% {
+        opacity: 0;
+        transform: translateX(-300px);
+    }
+   
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+   
+}
+
+.of {
+           
+    animation-name: moveInOf;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+} 
+
+@keyframes moveInOf {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+   
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+   
+}
+.the {
+           
+    animation-name: moveInThe;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+} 
+
+@keyframes moveInThe {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+   
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+   
+}
+.year {
+           
+    animation-name: moveInYear;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+} 
+
+@keyframes moveInYear {
+    0% {
+        opacity: 0;
+        transform: translateX(300px);
+    }
+   
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+   
+}
